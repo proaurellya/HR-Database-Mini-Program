@@ -174,9 +174,10 @@ def addEmpl():
         education = input('Masukkan Pendidikan Terakhir: ').upper() 
         posisi = input('Masukkan Posisi Karyawan: ').title()
         break
+
     while True: # DEPARTMENT
         showListDept()
-        department = input('Masukkan Department Karyawan: ').upper()
+        department = input('Masukkan Nama Department Karyawan: ').upper()
         if not department:
             print('Department Wajib Diisi.')
             continue
@@ -186,9 +187,9 @@ def addEmpl():
         else:
             break
     while True:
-        salary = (input('Masukkan Gaji Karyawan: ')) #salary
-        if not salary.isdigit() or len(salary) >= 10:
-            print ('Gaji Karyawan dapat dimasukkan antara 1 sampai 999.999.999')
+        salary = (input('Masukkan Gaji Karyawan: ')) # SALARY
+        if not salary.isdigit() or len(salary) <= 10:
+            print ('Gaji Karyawan dapat dimasukkan antara 10 sampai 999.999.999')
             continue
         else:
             break
