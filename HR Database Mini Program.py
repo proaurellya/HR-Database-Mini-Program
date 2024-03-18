@@ -1,7 +1,5 @@
 # CASPTONE PROJECT 1
 # CASE STUDY - EMPLOYEES DATA
-# RAHMA AURELLYA
-# JCDS 2204 007
 
 import os
 from datetime import date
