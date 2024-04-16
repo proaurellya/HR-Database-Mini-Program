@@ -13,7 +13,7 @@ In this program, you can access multiple CRUD features in the program such as:
 ## Create
   - Adding new employee information
   - Adding new department information
-  - 
+
 ## Read
   - Viewing employee information
   - Viewing department information
