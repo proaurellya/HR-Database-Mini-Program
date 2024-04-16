@@ -8,12 +8,20 @@ HR Database Mini program are a simple python program that help HR user to effici
 
 # Get to Know the Program
 Welcome to HR Database Mini Program created by Rahma Aurellya!
-In this program, you can access multiple feature in the program such as:
-  - Viewing employee data
-  - Viewing department data
-  - Searching employee data
-  - Adding new employee data
-  - Adding new department data
-  - Updating employee data
-  - Delete existing employee data
+In this program, you can access multiple CRUD features in the program such as:
+
+## Create
+  - Adding new employee information
+  - Adding new department information
+  - 
+## Read
+  - Viewing employee information
+  - Viewing department information
+  - Searching employee data based on any keywords given as queries to search
+    
+## Update
+  - Modify employee information in the system based on a specific conditions
+    
+## Delete
+  - Delete existing employee information
 
